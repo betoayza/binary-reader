@@ -1,5 +1,4 @@
 binary_code = input("Enter binary code: ")
-
 bytes_list = binary_code.split()
 
 ascii_text = ""
