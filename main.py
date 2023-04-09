@@ -17,7 +17,7 @@ while is_running_main:
             while is_running_1:
                 try:
                     binary_code = input("\nEnter binary code: ")
-                    if binary_code:
+                    if not binary_code.isspace() and binary_code:
                         bytes_list = binary_code.split()
 
                         ascii_text = ""
@@ -52,4 +52,4 @@ while is_running_main:
             is_running_main = False
     except:
         print("Wrong answer...")
-print("\nThanks for try, see on!")
+print("\nThanks, see on!")
